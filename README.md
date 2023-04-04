@@ -30,13 +30,25 @@
 - Open project in code editor
 - Run npm start to host in browser
 
+## Wins
+- Importing and iterating to grab the specific trailer for a movie
+- Very pleased with the overall appearence of the app
+
+## Challenges 
+- Cypress end to end testing
+- Using router to display only a bad url path
+
 ## Project Spec 
 The details of this project are outlined [here.](https://frontend.turing.edu/projects/module-3/rancid-tomatillos-v3.html)
 
-Contributors
+## Contributors
 
 - [Bea Ordonez](https://github.com/bea-ordonez)
 - [Travis Parks](https://github.com/LeftyLincoln)
+
+## Enhancements
+-Add a search bar that filters the movie by name
+-Sort the movies from worst rating to best rating
 
 
 
