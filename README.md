@@ -47,8 +47,8 @@ The details of this project are outlined [here.](https://frontend.turing.edu/pro
 - [Travis Parks](https://github.com/LeftyLincoln)
 
 ## Enhancements
--Add a search bar that filters the movie by name
--Sort the movies from worst rating to best rating
+- Add a search bar that filters the movie by name
+- Sort the movies from worst rating to best rating
 
 
 
