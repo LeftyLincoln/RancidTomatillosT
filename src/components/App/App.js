@@ -4,7 +4,7 @@ import MovieContainer from "../MovieContainer/MovieContainer.js";
 import SingleMovie from "../SingleMovie/SingleMovie.js";
 import Error from "../Error/Error";
 import fetchPromises from "../Api";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 
 class App extends Component {
   constructor() {
@@ -39,9 +39,7 @@ class App extends Component {
           <Route exact path={"/"}>
             <MovieContainer movies={this.state.movies} />
           </Route>
-          <Route path="*">
-            <Error />
-          </Route>
+          <Redirect from="*" to="/"/> 
         </Switch>
         {this.state.error && <Error />}
       </main>
